@@ -13,8 +13,7 @@ import torch.optim as optim
 import torch.nn.functional as F
 from torch.nn.utils import clip_grad_norm
 from gcn import GCNSynthetic
-from utils.utils import normalize_adj
-from torch_geometric.utils import accuracy
+from utils.utils import normalize_adj, accuracy
 
 # Defaults based on GNN Explainer
 parser = argparse.ArgumentParser()
